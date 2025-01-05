@@ -20,9 +20,9 @@ To compute the estimated the number of words that can fit on a page given a font
 | :--- | :---  |
 |`Page p = new Page(8.5, 11.0, 1.0);` | Creates a page that is 8.5 inches wide, 11 inches high with all margins set to 1.0. |
 | `p.getPrintableArea()`; | 58.5 |
-| `p.getLinesOfText(10);` | 79 |
-| `p.getLinesOfText(12);` | 66 |
-| `p.getLinesOfText(14);` | 56 |
+| `p.getLinesOfText(10);` | 64 |
+| `p.getLinesOfText(12);` | 54 |
+| `p.getLinesOfText(14);` | 46 |
 | `p.getWordsPerPage(10);` | 421 |
 | `p.getWordsPerPage(12);` | 351 |
 | `p.getWordsPerPage(14);` | 300 |
